@@ -1,0 +1,48 @@
+/*  Buttons */
+.action-btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1a73e8;
+	border: 1px solid transparent;
+	font-size: 18px;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 550;
+	border-radius: 4px;
+	padding: 12px 24px 11px;
+
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.plain-btn {
+	background-color: #fff;
+	color: #1a73e8;
+	font-family: Roboto, arial, sans-serif;
+}
+.plain-btn:hover {
+	background: #f3f3f3;
+	font-weight: 600px;
+	color: #094592;
+}
+
+.outline-btn {
+	background-color: #fff;
+	color: #1a73e8;
+	border: 1.5px solid #dad7d7;
+	font-family: Roboto, arial, sans-serif;
+}
+.outline-btn:hover {
+	border: 1.5px solid #91b9f0;
+	font-weight: 600px;
+	color: #094592;
+
+	background: #f3f3f3;
+}
+.filled-btn:hover {
+	font-weight: 600px;
+
+	background: #0e56b4;
+}
