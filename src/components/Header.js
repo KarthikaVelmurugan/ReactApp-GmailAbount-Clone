@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/Header.css"
 import "../styles/Buttons.css"
 
-import ObButton from "../utils/ObButton"
+import Button from "../utils/Button"
 
 export default function Header() {
 	return (
@@ -17,9 +17,9 @@ export default function Header() {
 			</div>
 			<div class="header-action-buttons-container">
 				{/* Button Resuablitiy Code  */}
-				<ObButton className="action-btn plain-btn">For Work</ObButton>
-				<ObButton className="action-btn outline-btn">Sign in</ObButton>
-				<ObButton className="action-btn filled-btn">Create an account</ObButton>
+				<Button className="action-btn plain-btn">For Work</Button>
+				<Button className="action-btn outline-btn">Sign in</Button>
+				<Button className="action-btn filled-btn">Create an account</Button>
 				{/* <button class="action-btn plain-btn">For work</button> */}
 				{/* <button class="action-btn outline-btn">Sign in</button>
         <button class="action-btn filled-btn">Create an account</button> */}

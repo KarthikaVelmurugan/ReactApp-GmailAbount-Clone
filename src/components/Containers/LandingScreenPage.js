@@ -1,8 +1,8 @@
 import React from "react"
 import "../../styles/Buttons.css"
 import "../../styles/Container.css"
-import ObButton from "../../utils/ObButton"
-export default function Landing_Screen() {
+import Button from "../../utils/Button"
+export default function LandingScreenPage() {
 	return (
 		<div class="body-container-1">
 			<div class="left-container-1">
@@ -12,8 +12,8 @@ export default function Landing_Screen() {
 					more, all in one place.
 				</div>
 				<div class="buttons">
-					<ObButton className="action-btn filled-btn">Create an account</ObButton>
-					<ObButton className="action-btn plain-btn">For work</ObButton>
+					<Button className="action-btn filled-btn">Create an account</Button>
+					<Button className="action-btn plain-btn">For work</Button>
 					{/* <button class="action-btn filled-btn">Create an account</button>
           <button class="action-btn plain-btn">For work</button> */}
 				</div>

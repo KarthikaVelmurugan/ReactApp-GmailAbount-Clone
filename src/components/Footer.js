@@ -1,22 +1,28 @@
 import React from "react"
 import "../styles/Footer.css"
-
+import Image from "../utils/Image"
 // Footer section
 export default function Footer() {
+	const footerContents = [
+		"Privacy",
+		"Terms",
+		"About Google",
+		"Google Products",
+		"Our Policy"
+	]
 	return (
 		<div class="footer-section">
 			<div class="footer-nav-items">
-				<img
-					class="google-img"
-					src="https://gstatic.com/images/branding/googlelogo/svg/googlelogo_dark54_clr_84x28px.svg"
+				<Image
+					source="https://gstatic.com/images/branding/googlelogo/svg/googlelogo_dark54_clr_84x28px.svg"
 					alt="google-footer-img"
-				/>
-				<div>Privacy</div>
-				<div>Terms</div>
-				<div>About Google</div>
+					title="google-footer-img"
+					className="google-img"
+				></Image>
 
-				<div>Google Products</div>
-				<div>Our policy</div>
+				{footerContents.map((content, index) => (
+					<div>{content}</div>
+				))}
 			</div>
 
 			<div class="footer-help-buttons">

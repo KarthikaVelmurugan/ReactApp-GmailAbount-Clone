@@ -1,8 +1,14 @@
 import React from "react"
 
-const Feature_Cart = ({ className, noticeTitle, noticeDescription }) => {
+const FeatureCart = ({
+	className,
+	noticeTitle,
+	noticeDescription,
+	setImage,
+	image
+}) => {
 	return (
-		<div class={`notice-cart ${className}`}>
+		<div class={`notice-cart ${className}`} onMouseEnter={() => setImage(image)}>
 			<div class="divider">
 				<div class="divider-filler"></div>
 			</div>
@@ -13,4 +19,4 @@ const Feature_Cart = ({ className, noticeTitle, noticeDescription }) => {
 		</div>
 	)
 }
-export default Feature_Cart
+export default FeatureCart

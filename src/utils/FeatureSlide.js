@@ -2,7 +2,7 @@ import React from "react"
 
 import "../styles/Container.css"
 import { FaCheck, FaWifi, FaRegShareSquare } from "react-icons/fa"
-const Feature_Slide = ({
+const FeatureSlide = ({
 	rootClassName,
 	iconID,
 	slideTitle,
@@ -27,4 +27,4 @@ const Feature_Slide = ({
 	)
 }
 
-export default Feature_Slide
+export default FeatureSlide

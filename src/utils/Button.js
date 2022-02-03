@@ -1,5 +1,5 @@
 import React from "react"
-const ObButton = ({ className, children }) => {
+const Button = ({ className, children }) => {
 	return (
 		<div>
 			<button class={className}>{children}</button>
@@ -7,4 +7,4 @@ const ObButton = ({ className, children }) => {
 	)
 }
 
-export default ObButton
+export default Button

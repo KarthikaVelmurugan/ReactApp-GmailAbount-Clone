@@ -1,6 +1,6 @@
 import React from "react"
-import ObButton from "./ObButton"
-const Accordion_Card = ({ title, description, isButtonExist }) => {
+import Button from "./Button"
+const AccordionCard = ({ title, description, isButtonExist }) => {
 	return (
 		<details>
 			<summary class="list-line">
@@ -10,11 +10,11 @@ const Accordion_Card = ({ title, description, isButtonExist }) => {
 			<div class="summary-content">{description}</div>
 
 			{isButtonExist == 1 ? (
-				<ObButton className="action-btn plain-btn">Learn more</ObButton>
+				<Button className="action-btn plain-btn">Learn more</Button>
 			) : (
 				""
 			)}
 		</details>
 	)
 }
-export default Accordion_Card
+export default AccordionCard
