@@ -1,8 +1,8 @@
 {
   "name": "gmail-about-page-react-app",
   "version": "0.1.0",
-  "private": false,
-  "homepage":"https://karthikavelmurugan.github.io/ReactApp-GmailAbout-Clone/",
+  "private": false  ,
+  "homepage":"https://karthikavelmurugan.github.io/",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.16.1",
