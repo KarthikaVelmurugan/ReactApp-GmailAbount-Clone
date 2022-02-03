@@ -1,8 +1,8 @@
 {
+  "homepage": "https://KarthikaVelmurugan.github.io/ReactApp-GmailAbout-Clone",
   "name": "gmail-about-page-react-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://karthikavelmurugan.github.io/ReactApp-GmailAbout-Clone",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.16.1",
@@ -17,13 +17,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write   \"src/**/*.{js,ts,jsx,tsx,css,scss}\"",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
